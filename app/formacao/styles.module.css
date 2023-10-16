@@ -1,0 +1,24 @@
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #E94D52;
+    padding: 10px;
+   
+}
+
+.formacao {
+    display: "flex";
+    justify-content: space-between;
+    background-color: #F2A3AE;
+    width: auto;
+    height: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border: 8px solid #0F2CA0;
+}
+
+.header2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #0F2CA0;    
+    padding: 10px;
+}
