@@ -45,10 +45,12 @@ export default function SobreMim() {
             <div className={styles.sobremim}>
                 <h1 className={styles.header}>Sobre mim</h1>
                 <h2 className={styles.header2}>Meu nome é Erica Okamura, tenho 37 anos e nasci em São Paulo, Brasil.</h2>
-                <button className={styles.buttonEndereco} onClick={() => handleOnClick("05055010")}>
-                    Clique aqui para saber meu endereço
-                </button>
-                <div style={{display: endereco == enderecoInicial ? "none" : "block"}}>
+                <div className={styles.divbutton}>
+                    <button className={styles.buttonEndereco} onClick={() => handleOnClick("05055010")}>
+                        Clique aqui para saber meu endereço
+                    </button>
+                </div>
+                <div style={{display: endereco == enderecoInicial ? "none" : "block", textAlign: "center"}}>
                     <div className={styles.campo}>
                         <h3 className={styles.field}>CEP:</h3>
                         <h4 className={styles.item}>{endereco.cep}</h4>
