@@ -5,6 +5,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <header>
+        <title>Erica Okamura</title>
+      </header>
       <body>{children}</body>
     </html>
   )

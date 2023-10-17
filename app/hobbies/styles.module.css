@@ -15,8 +15,20 @@
     background-color: #F2A3AE;
     color: #0F2CA0;
     width: auto;
-    height: 700px;
+    height: fit-content;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
     border: 8px solid #0F2CA0;
+}
+
+.dumboimg {
+    padding: 10px;
+}
+
+.romeimg {
+    padding: 10px;
+}
+
+.images {
+    display: inline-flex;
 }
