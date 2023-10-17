@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import Image from 'next/image'
 import dumbo from './dumbo.jpg';
 import rome from './rome.png';
+import firenze from './firenze.png';
 
 
 
@@ -21,6 +22,12 @@ export default function Hobbies() {
                     />
                     <Image className={styles.romeimg}
                         src={rome}
+                        width={500}
+                        height={650}
+                        alt="Picture of dumbo"
+                    />
+                    <Image className={styles.firenzeimg}
+                        src={firenze}
                         width={500}
                         height={650}
                         alt="Picture of dumbo"
