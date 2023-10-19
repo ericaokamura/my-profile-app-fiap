@@ -9,7 +9,9 @@ import Typography from '@mui/material/Typography'
 import { useRouter } from 'next/navigation';
 
 export default function Header() {
-
+    
+    const { push } = useRouter();
+    
     return (
         <header className={styles.header}>
             <h1 className={styles.header1}>
