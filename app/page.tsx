@@ -1,4 +1,4 @@
-import Menu from "./shared/Menu";
+import Menu from "./menu/Menu";
 import Image from 'next/image'
 import erica from './foto_erica.jpg';
 
