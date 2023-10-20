@@ -6,11 +6,13 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { useRouter } from 'next/navigation';
+import { Menu } from "../menu";
 
 export default function Experiencia() {
 
     return (
         <>
+            <Menu/>
             <div className={styles.experiencia}>
                 <h1 className={styles.header}>Minhas experiências profissionais</h1>
                 <Card sx={{ minWidth: 200, marginTop: "10px", marginBottom: "30px", marginRight: "30px", backgroundColor: "#F2A3AE", border: "3px solid #DB3F43" }}>

@@ -2,6 +2,7 @@
 import styles from "./styles.module.css";
 import axios from "axios";
 import React from "react";
+import { Menu } from "../menu";
 
 export default function SobreMim() {
 
@@ -41,7 +42,7 @@ export default function SobreMim() {
 
     return (
         <>
-
+            <Menu />
             <div className={styles.sobremim}>
                 <h1 className={styles.header}>Sobre mim</h1>
                 <h2 className={styles.header2}>Meu nome é Erica Okamura, tenho 37 anos e nasci em São Paulo, Brasil.</h2>
@@ -50,7 +51,7 @@ export default function SobreMim() {
                         Clique aqui para saber meu endereço
                     </button>
                 </div>
-                <div style={{display: endereco == enderecoInicial ? "none" : "block", textAlign: "center"}}>
+                <div style={{display: endereco == enderecoInicial ? "none" : "block", textAlign: "center", margin: "20px"}}>
                     <div className={styles.campo}>
                         <h3 className={styles.field}>CEP:</h3>
                         <h4 className={styles.item}>{endereco.cep}</h4>

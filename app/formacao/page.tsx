@@ -1,3 +1,4 @@
+import { Menu } from "../menu";
 import styles from "./styles.module.css";
 
 
@@ -5,6 +6,7 @@ export default function Formacao() {
 
     return (
         <>
+            <Menu/>
             <div className={styles.formacao}>
                 <h1 className={styles.header}>Minha formação acadêmica</h1>
                 <h2 className={styles.header2}>Sou formada em Engenharia Elétrica pela Universidade de São Paulo.</h2>

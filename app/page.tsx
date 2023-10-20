@@ -6,15 +6,14 @@ export default function Home() {
 
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "space-between", backgroundColor: "#F6C6CF", width: "auto", height: "fit-content", border: "8px solid #0F2CA0", marginBottom: "20px" }}>
-        <div style={{ width: "fit-content", height: "fit-content", marginLeft: "100px", display: "flex" }}>
-          <Menu />
+      <div style={{ display: "block", justifyContent: "space-between", backgroundColor: "#F6C6CF", width: "100%", height: "100%", border: "8px solid #0F2CA0", marginBottom: "20px" }}>
+        <Menu />
+        <div style={{ width: "100%", height: "auto", display: "flex", justifyContent: "center" }}>
           <Image
             src={erica}
             width={450}
             height={600}
-            alt="Picture of dumbo"
-          />
+            alt="Picture of myself"/>
         </div>
       </div>
 
