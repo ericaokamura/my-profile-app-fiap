@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography'
 import { useRouter } from 'next/navigation';
 
-export default function Header() {
+export default function Menu() {
     
     const { push } = useRouter();
     
